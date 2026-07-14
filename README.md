@@ -124,8 +124,8 @@ GVCC_learning_portal/
 ## Installation Steps
 
 ### Prerequisites
-- Node.js (v14 or higher)
-- MongoDB (installed and running locally or MongoDB Atlas connection string)
+- Node.js 
+- MongoDB 
 
 ### Backend Setup
 
@@ -243,39 +243,7 @@ Get recently watched videos
 - **Headers:** `Authorization: Bearer <token>`
 - **Response:** Array of progress objects with video details
 
-## Screenshot Protection Explanation
 
-The application implements several practical measures to discourage screenshot capture:
-
-1. **Right-click disable**: Prevents context menu access
-2. **Text selection disable**: Prevents text copying
-3. **Video drag disable**: Prevents video element manipulation
-4. **Email watermark**: Displays user email as a transparent overlay
-5. **Print Screen detection**: Shows warning toast when Print Screen is pressed
-6. **Tab blur detection**: Blurs video when user switches tabs
-
-### Browser Limitations
-
-These protections are **not foolproof** due to browser security restrictions:
-
-- Users can still use external screenshot tools (Snipping Tool, OBS, etc.)
-- Mobile devices can capture screenshots regardless of web protections
-- Browser extensions can bypass these restrictions
-- Screen recording software can capture content
-
-These measures serve as deterrents for casual users but cannot prevent determined individuals from capturing content. For true content protection, consider:
-- DRM (Digital Rights Management) solutions
-- Streaming with encrypted protocols (HLS with AES encryption)
-- Watermarking at the server level
-- Legal agreements and terms of service
-
-## Sample Videos
-
-The project includes a seed script that populates the database with 3 sample videos. Currently, these use publicly available sample videos and placeholder thumbnails:
-
-- **Introduction to React** - 10 minutes
-- **JavaScript ES6 Features** - 12 minutes
-- **Node.js Fundamentals** - 15 minutes
 
 To use your own videos:
 1. Place MP4 files in `client/public/videos/`
@@ -318,17 +286,6 @@ npm run dev
 
 5. Register a new account or login with existing credentials
 
-## Code Quality
-
-The project follows best practices:
-
-- **Async/await**: Used for all asynchronous operations
-- **Input validation**: Request data is validated on the server
-- **Error handling**: Proper error messages and try-catch blocks
-- **Environment variables**: Sensitive data stored in .env files
-- **Clean code**: Short, readable functions with meaningful names
-- **DRY principle**: No duplicate code, reusable components
-- **No placeholders**: All features are fully functional
 
 ## License
 
@@ -336,4 +293,4 @@ This project is created for educational purposes.
 
 ## Author
 
-Built as a demonstration of MERN stack development for interview purposes.
+Ayush Raj
