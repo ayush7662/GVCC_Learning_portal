@@ -6,7 +6,7 @@ const sampleVideos = [
   {
     title: 'Introduction to React',
     description: 'Learn the basics of React, including components, state, and props. This comprehensive tutorial covers everything you need to get started with React development.',
-    thumbnail: 'https://via.placeholder.com/640x360/3B82F6/FFFFFF?text=React+Intro',
+    // thumbnail: "/thumbnails/OIP (6).jpg",
     videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4',
     duration: 600
   },
