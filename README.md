@@ -33,13 +33,7 @@ A clean, beginner-to-intermediate level learning portal built with the MERN stac
 - Visual progress bar showing percentage watched
 - Recently watched videos section on dashboard
 
-### Screenshot Protection
-- Disabled right-click context menu
-- Disabled text selection
-- Disabled video dragging
-- Transparent watermark with user's email
-- Print Screen key detection with warning toast
-- Tab blur detection with video blur effect
+
 
 **Note:** These protections are practical deterrents but cannot completely prevent screenshots due to browser limitations. Users can still use external tools or mobile devices to capture content.
 
