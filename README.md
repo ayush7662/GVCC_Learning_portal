@@ -141,13 +141,13 @@ npm install
 
 3. Create a `.env` file in the server directory:
 ```bash
-cp .env.example .env
+cp .env
 ```
 
 4. Configure environment variables in `.env`:
 ```
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/learning-portal
+MONGODB_URI=mongodb://localhost:27017/portal
 JWT_SECRET=your_jwt_secret_key_change_this_in_production
 ```
 
