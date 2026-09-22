@@ -2,6 +2,9 @@
 
 A clean, beginner-to-intermediate level learning portal built with the MERN stack (MongoDB, Express, React, Node.js). This application allows students to watch videos, create bookmarks, track progress, and includes screenshot protection features.
 
+## Live Url: https://gvcc-learning-portal-bice.vercel.app
+
+
 ## Features
 
 ### Authentication
